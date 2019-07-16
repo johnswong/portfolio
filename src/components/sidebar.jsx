@@ -9,7 +9,7 @@ export default class Sidebar extends Component {
                     <aside id="colorlib-aside" className="border js-fullheight">
                         <div className="text-center">
                             <div className="author-img" style={{ backgroundImage: 'url(images/about.jpg)' }} />
-                            <h1 id="colorlib-logo"><a href="index.html">Johnson Wong</a></h1>
+                            <h1 id="colorlib-logo"><a href="">Johnson Wong</a></h1>
                             <span className="position"><b>Software Engineer</b></span>
                         </div>
                         <nav id="colorlib-main-menu" role="navigation" className="navbar">
@@ -27,6 +27,7 @@ export default class Sidebar extends Component {
                         </nav>
                         <nav id="colorlib-main-menu">
                             <ul>
+                                <li><a className="btn btn-primary btn-learn" href="resume.pdf" target="_blank" rel="noopener noreferrer">Resume <i className="icon-download4" /></a></li>
                                 <li><a href="mailto:johnswong14@gmail.com" target="_blank" rel="noopener noreferrer"><i className="icon-mail" /></a> &nbsp;
                                 <a href="https://linkedin.com/in/johnswong14" target="_blank" rel="noopener noreferrer"><i className="icon-linkedin2" /></a> &nbsp;
                                 <a href="https://github.com/jwong38" target="_blank" rel="noopener noreferrer"><i className="icon-github"></i></a> &nbsp;</li>
