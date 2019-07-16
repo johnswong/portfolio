@@ -17,7 +17,7 @@ export default class Skills extends Component {
                                 <div className="progress-wrap">
                                     <h3>Java</h3>
                                     <div className="progress">
-                                        <div className="progress-bar color-1" role="progressbar" aria-valuenow={75} aria-valuemin={0} aria-valuemax={100} style={{ width: '75%' }}>
+                                        <div className="progress-bar color-1" role="progressbar" aria-valuenow={90} aria-valuemin={0} aria-valuemax={100} style={{ width: '90%' }}>
                                             <span>90%</span>
                                         </div>
                                     </div>
@@ -27,7 +27,7 @@ export default class Skills extends Component {
                                 <div className="progress-wrap">
                                     <h3>C++</h3>
                                     <div className="progress">
-                                        <div className="progress-bar color-2" role="progressbar" aria-valuenow={60} aria-valuemin={0} aria-valuemax={100} style={{ width: '60%' }}>
+                                        <div className="progress-bar color-2" role="progressbar" aria-valuenow={85} aria-valuemin={0} aria-valuemax={100} style={{ width: '85%' }}>
                                             <span>85%</span>
                                         </div>
                                     </div>
@@ -37,7 +37,7 @@ export default class Skills extends Component {
                                 <div className="progress-wrap">
                                     <h3>JavaScript</h3>
                                     <div className="progress">
-                                        <div className="progress-bar color-3" role="progressbar" aria-valuenow={85} aria-valuemin={0} aria-valuemax={100} style={{ width: '85%' }}>
+                                        <div className="progress-bar color-3" role="progressbar" aria-valuenow={75} aria-valuemin={0} aria-valuemax={100} style={{ width: '75%' }}>
                                             <span>75%</span>
                                         </div>
                                     </div>
@@ -57,7 +57,7 @@ export default class Skills extends Component {
                                 <div className="progress-wrap">
                                     <h3>CSS</h3>
                                     <div className="progress">
-                                        <div className="progress-bar color-5" role="progressbar" aria-valuenow={70} aria-valuemin={0} aria-valuemax={100} style={{ width: '70%' }}>
+                                        <div className="progress-bar color-5" role="progressbar" aria-valuenow={80} aria-valuemin={0} aria-valuemax={100} style={{ width: '80%' }}>
                                             <span>80%</span>
                                         </div>
                                     </div>
