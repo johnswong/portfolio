@@ -110,7 +110,7 @@ figure {
   #colorlib-aside #colorlib-logo {
     text-align: right;
     font-weight: 700;
-    font-size: 22px;
+    font-size: 35px;
     margin-bottom: .5em;
     display: block;
     width: 100%; }
@@ -1014,7 +1014,7 @@ body.offcanvas {
           -webkit-transform: translate3d(0, 0, 0);
           transform: translate3d(0, 0, 0); } }
   .project:hover .desc {
-    opacity: 1; }
+    opacity: 0.95; }
     .project:hover .desc h3 {
       -webkit-transform: translate3d(0, 0, 0);
       transform: translate3d(0, 0, 0); }

@@ -16,18 +16,18 @@ export default class Contact extends Component {
                             <div className="col-md-5">
                                 <div className="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
                                     <div className="colorlib-icon">
-                                        <i className="icon-globe-outline" />
+                                        <i className="icon-map" />
                                     </div>
                                     <div className="colorlib-text">
-                                        <p><a href="mailto:johnswong14@gmail.com">johnswong14@gmail.com</a></p>
+                                        <p>San Francisco, CA</p>
                                     </div>
                                 </div>
                                 <div className="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
                                     <div className="colorlib-icon">
-                                        <i className="icon-map" />
+                                        <i className="icon-globe-outline" />
                                     </div>
                                     <div className="colorlib-text">
-                                        <p>Daly City, CA</p>
+                                        <p><a href="mailto:johnswong14@gmail.com">johnswong14@gmail.com</a></p>
                                     </div>
                                 </div>
                                 <div className="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
