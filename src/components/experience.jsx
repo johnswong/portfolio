@@ -22,8 +22,8 @@ export default class Experience extends Component {
                                             </div>
                                             <div className="timeline-label">
                                                 <h2>Technical Specialist at Apple Inc. <span>Oct 2018 - present</span></h2>
-                                                <p><li>Troubleshoot mobile devices such as iPhone, iPad and Apple Watch, as well as iCloud services</li>
-                                                <li>Present options and solutions for customers in order for them to make an informed decision</li>
+                                                <p><li>Troubleshoot customers’ mobile device(s) such as iPhone, iPad and Apple Watch, as well as iCloud related issues</li>
+                                                <li>Present options and solutions to customers after troubleshooting in order for them to make an informed decision</li>
                                                 <li>Multi-task by attending to different customers in a timely manner</li>
                                                 <li>Assist peers with troubleshooting customer devices</li>
                                                 <li>Share feedback amongst peers to improve external and internal customer experience</li></p>
