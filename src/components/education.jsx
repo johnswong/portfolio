@@ -28,8 +28,8 @@ export default class Education extends Component {
                                                         <div className="col-md-6">
                                                             <p>San Francisco State University<br></br>
                                                             San Francisco State, CA<br></br>
-                                                            2017 - 2019<br></br>
-                                                            GPA: 3.27</p>
+                                                            Aug 2017 - Jan 2020<br></br>
+                                                            GPA: 3.26</p>
                                                         </div>
                                                     </div>
                                                 </div>

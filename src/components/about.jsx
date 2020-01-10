@@ -13,7 +13,7 @@ export default class About extends Component {
                                         <div className="about-desc">
                                             <span className="heading-meta">About</span>
                                             <h2 className="colorlib-heading">Who Is Johnson?</h2>
-                                            <p>Johnson is a soon-to-be Computer Science graduate from San Francisco State University. Having a strong experience in technical troubleshooting and a knack for problem-solving, has helped him create some amazing things. He loves exploring new technologies and is currently focusing on deepening his knowledge in web/mobile application development.</p>
+                                            <p>Johnson is a Computer Science graduate from San Francisco State University. Having a strong experience in technical troubleshooting and a knack for problem-solving, has helped him create some amazing things. He loves exploring new technologies and is currently focusing on deepening his knowledge in web/mobile application development.</p>
                                             <p>Aside from his tech-savvy self, he enjoys finding and listening to music. In his downtime, he would relax by queueing up tracks and blending them together. Yes, he is a DJ! When he's not in his engineering or DJing shoes, he's looking at collecting shoes! He currently owns 50+ pairs of sneakers.</p>
                                         </div>
                                     </div>

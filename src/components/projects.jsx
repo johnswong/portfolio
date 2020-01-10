@@ -14,45 +14,45 @@ export default class Projects extends Component {
                         </div>
                         <div className="row">
                             <div className="col-md-4 animate-box" data-animate-effect="fadeInLeft">
-                                <div className="project" style={{ backgroundImage: 'url(images/PTQlogo2.png)' }}>
+                                <div className="project" style={{ backgroundImage: 'url(images/SFSUGatorTraderLogo.png)' }}>
                                     <div className="desc">
                                         <div className="con">
-                                            <h3><a href="https://github.com/jwong38/online-chess-game">Online Chess Game</a></h3>
-                                            <span>Node.js, Express, Handlebars, JavaScript, HTML, CSS, and MySQL</span>
+                                            <h3><a href="https://github.com/jwong38/SFSU-Gator-Trader" target="_blank">SFSU Gator Trader</a></h3>
+                                            <span>Built with Node.js, Express, Handlebars, JavaScript, HTML, CSS, MySQL</span>
                                             <p className="icon">
                                                 <span><a href="#"><i className="icon-share3" /></a></span>
-                                                <span><a href="#"><i className="icon-eye" /> 100</a></span>
-                                                <span><a href="#"><i className="icon-heart" /> 49</a></span>
+                                                <span><a href="#"><i className="icon-eye" /></a></span>
+                                                <span><a href="#"><i className="icon-heart" /></a></span>
                                             </p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div className="col-md-4 animate-box" data-animate-effect="fadeInRight">
-                                <div className="project" style={{ backgroundImage: 'url(images/tankwars.png)' }}>
+                                <div className="project" style={{ backgroundImage: 'url(images/PTQlogo.png)' }}>
                                     <div className="desc">
                                         <div className="con">
-                                            <h3><a href="https://github.com/jwong38/tank-wars-game">Tank Wars game</a></h3>
-                                            <span>Java using JavaFX library and Swing API</span>
+                                            <h3><a href="https://github.com/jwong38/online-chess-game" target="_blank">Online Chess Game</a></h3>
+                                            <span>Built with Node.js, Express, Handlebars, JavaScript, HTML, CSS, and MySQL</span>
                                             <p className="icon">
                                                 <span><a href="#"><i className="icon-share3" /></a></span>
-                                                <span><a href="#"><i className="icon-eye" /> 100</a></span>
-                                                <span><a href="#"><i className="icon-heart" /> 49</a></span>
+                                                <span><a href="#"><i className="icon-eye" /></a></span>
+                                                <span><a href="#"><i className="icon-heart" /></a></span>
                                             </p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div className="col-md-4 animate-box" data-animate-effect="fadeInTop">
-                                <div className="project" style={{ backgroundImage: 'url(images/brickbreaker.png)' }}>
+                                <div className="project" style={{ backgroundImage: 'url(images/tankwars.png)' }}>
                                     <div className="desc">
                                         <div className="con">
-                                            <h3><a href="https://github.com/jwong38/brick-breaker-game">Brick Breaker Game</a></h3>
-                                            <span>Java using JavaFX library and Swing API</span>
+                                            <h3><a href="https://github.com/jwong38/tank-wars-game" target="_blank">Tank Wars game</a></h3>
+                                            <span>Built with Java using JavaFX library and Swing API</span>
                                             <p className="icon">
                                                 <span><a href="#"><i className="icon-share3" /></a></span>
-                                                <span><a href="#"><i className="icon-eye" /> 100</a></span>
-                                                <span><a href="#"><i className="icon-heart" /> 49</a></span>
+                                                <span><a href="#"><i className="icon-eye" /></a></span>
+                                                <span><a href="#"><i className="icon-heart" /></a></span>
                                             </p>
                                         </div>
                                     </div>

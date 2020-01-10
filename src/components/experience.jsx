@@ -37,7 +37,7 @@ export default class Experience extends Component {
                                             </div>
                                             <div className="timeline-label">
                                                 <h2>DevOps/IT Intern at Jobvite <span>Jun 2018 - Aug 2018</span></h2>
-                                                <p><li>Responded to help desk tickets that involved office-related technical issues in a timely manner, and troubleshooted problems hands-on when needed </li>
+                                                <p><li>Responded to help desk tickets that involved office-related technical issues in a timely manner </li>
                                                 <li>Configured computers for new hires according to company needs and standards </li>
                                                 <li>Helped migrate a local server, where builds for the mobile platform took place, to the cloud, and insured specific build tools were installed and running properly </li>
                                                 <li>Managed the company’s active directory by organizing and updating users and groups </li></p>
