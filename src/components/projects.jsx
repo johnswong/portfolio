@@ -1,112 +1,192 @@
-import React, { Component } from 'react'
+import React, { Component } from "react";
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
+import CardDeck from "react-bootstrap/CardDeck";
+import Card from "react-bootstrap/Card";
 
 export default class Projects extends Component {
     render() {
         return (
-            <div>
-                <section className="colorlib-work" data-section="projects">
-                    <div className="colorlib-narrow-content">
-                        <div className="row">
-                            <div className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-                                <span className="heading-meta">My Work</span>
-                                <h2 className="colorlib-heading animate-box">Recent Projects</h2>
-                            </div>
-                        </div>
-                        <div className="row">
-                            <div className="col-md-4 animate-box" data-animate-effect="fadeInLeft">
-                                <div className="project" style={{ backgroundImage: 'url(images/SFSUGatorTraderLogo.png)' }}>
-                                    <div className="desc">
-                                        <div className="con">
-                                            <h3><a href="https://github.com/jwong38/SFSU-Gator-Trader" target="_blank">SFSU Gator Trader</a></h3>
-                                            <span>Built with Node.js, Express, Handlebars, JavaScript, HTML, CSS, MySQL</span>
-                                            <p className="icon">
-                                                <span><a href="#"><i className="icon-share3" /></a></span>
-                                                <span><a href="#"><i className="icon-eye" /></a></span>
-                                                <span><a href="#"><i className="icon-heart" /></a></span>
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-md-4 animate-box" data-animate-effect="fadeInRight">
-                                <div className="project" style={{ backgroundImage: 'url(images/PTQlogo.png)' }}>
-                                    <div className="desc">
-                                        <div className="con">
-                                            <h3><a href="https://github.com/jwong38/online-chess-game" target="_blank">Online Chess Game</a></h3>
-                                            <span>Built with Node.js, Express, Handlebars, JavaScript, HTML, CSS, and MySQL</span>
-                                            <p className="icon">
-                                                <span><a href="#"><i className="icon-share3" /></a></span>
-                                                <span><a href="#"><i className="icon-eye" /></a></span>
-                                                <span><a href="#"><i className="icon-heart" /></a></span>
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-md-4 animate-box" data-animate-effect="fadeInTop">
-                                <div className="project" style={{ backgroundImage: 'url(images/tankwars.png)' }}>
-                                    <div className="desc">
-                                        <div className="con">
-                                            <h3><a href="https://github.com/jwong38/tank-wars-game" target="_blank">Tank Wars game</a></h3>
-                                            <span>Built with Java using JavaFX library and Swing API</span>
-                                            <p className="icon">
-                                                <span><a href="#"><i className="icon-share3" /></a></span>
-                                                <span><a href="#"><i className="icon-eye" /></a></span>
-                                                <span><a href="#"><i className="icon-heart" /></a></span>
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                           {/* <div className="col-md-4 animate-box" data-animate-effect="fadeInBottom">
-                                <div className="project" style={{ backgroundImage: 'url(images/img-4.jpg)' }}>
-                                    <div className="desc">
-                                        <div className="con">
-                                            <h3><a href="work.html">Work 04</a></h3>
-                                            <span>Application</span>
-                                            <p className="icon">
-                                                <span><a href="#"><i className="icon-share3" /></a></span>
-                                                <span><a href="#"><i className="icon-eye" /> 100</a></span>
-                                                <span><a href="#"><i className="icon-heart" /> 49</a></span>
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-md-4 animate-box" data-animate-effect="fadeInLeft">
-                                <div className="project" style={{ backgroundImage: 'url(images/img-5.jpg)' }}>
-                                    <div className="desc">
-                                        <div className="con">
-                                            <h3><a href="work.html">Work 05</a></h3>
-                                            <span>Graphic, Logo</span>
-                                            <p className="icon">
-                                                <span><a href="#"><i className="icon-share3" /></a></span>
-                                                <span><a href="#"><i className="icon-eye" /> 100</a></span>
-                                                <span><a href="#"><i className="icon-heart" /> 49</a></span>
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-md-4 animate-box" data-animate-effect="fadeInRight">
-                                <div className="project" style={{ backgroundImage: 'url(images/img-6.jpg)' }}>
-                                    <div className="desc">
-                                        <div className="con">
-                                            <h3><a href="work.html">Work 06</a></h3>
-                                            <span>Web Design</span>
-                                            <p className="icon">
-                                                <span><a href="#"><i className="icon-share3" /></a></span>
-                                                <span><a href="#"><i className="icon-eye" /> 100</a></span>
-                                                <span><a href="#"><i className="icon-heart" /> 49</a></span>
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>*/}
-                        </div>
-                    </div>
-                </section>
-            </div>
-        )
+            <Container fluid className="component" id="projects">
+                <Row>
+                    <Col className="component-header">
+                        <div className="component-header-title">Projects</div>
+                        <div className="keyline"></div>
+                    </Col>
+                </Row>
+                <Row>
+                    <Col className="content">
+                        <CardDeck className="mt-2">
+                            <Card>
+                                <Card.Img
+                                    variant="top"
+                                    src="images/SFSU_Gator_Trader_2.png"
+                                />
+                                <Card.Body>
+                                    <Card.Title>SFSU Gator Trader</Card.Title>
+                                    <Card.Text>
+                                        A group project for my senior software
+                                        engineering class. We were tasked with
+                                        building a web app with the intention of
+                                        providing a platform exclusive to SFSU
+                                        students to buy and sell school
+                                        materials and etc. I took on the role of
+                                        back-end lead and GitHub Master.
+                                    </Card.Text>
+                                    <br></br>
+                                    <Card.Text>
+                                        <span className="technology">
+                                            Node.js
+                                        </span>
+                                        <span className="technology">
+                                            Express
+                                        </span>
+                                        <span className="technology">
+                                            MySQL
+                                        </span>
+                                        <span className="technology">
+                                            Handlebars
+                                        </span>
+                                        <span className="technology">CSS</span>
+                                    </Card.Text>
+                                </Card.Body>
+                                <Card.Footer>
+                                    <small className="text-muted">
+                                        <a
+                                            href="https://github.com/johnswong14/SFSU-Gator-Trader"
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                        >
+                                            <i className="fa fa-github fa-2x"></i>
+                                        </a>
+                                        &nbsp; &nbsp;
+                                        <a
+                                            href="https://sfsugatortrader.com"
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                        >
+                                            <i className="fa fa-external-link fa-2x"></i>
+                                        </a>
+                                    </small>
+                                </Card.Footer>
+                            </Card>
+                            <Card>
+                                <Card.Img
+                                    variant="top"
+                                    src="images/PTQ_2.png"
+                                />
+                                <Card.Body>
+                                    <Card.Title>Online Chess Game</Card.Title>
+                                    <Card.Text>
+                                        A group project for my web development
+                                        class. This online chess game was built
+                                        using the chess.js, chessboard.js and
+                                        chessboard3.js APIs. The game features
+                                        3D chessboards, customizations of game
+                                        settings and chess pieces, and a
+                                        leaderboard. For this project, I took on
+                                        the role of back-end lead.
+                                    </Card.Text>
+                                    <Card.Text>
+                                        <span className="technology">
+                                            Node.js
+                                        </span>
+                                        <span className="technology">
+                                            Express
+                                        </span>
+                                        <span className="technology">
+                                            MySQL
+                                        </span>
+                                        <span className="technology">
+                                            Handlebars
+                                        </span>
+                                        <span className="technology">CSS</span>
+                                    </Card.Text>
+                                </Card.Body>
+                                <Card.Footer>
+                                    <small className="text-muted">
+                                        <a
+                                            href="https://github.com/johnswong14/online-chess-game"
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                        >
+                                            <i className="fa fa-github fa-2x"></i>
+                                        </a>
+                                    </small>
+                                </Card.Footer>
+                            </Card>
+                        </CardDeck>
+                        <CardDeck className="mt-4">
+                            <Card>
+                                <Card.Img
+                                    variant="top"
+                                    src="images/stockx.png"
+                                />
+                                <Card.Body>
+                                    <Card.Title>StockX Spreadsheet</Card.Title>
+                                    <Card.Text>
+                                        StockX is an online marketplace known
+                                        for primarily reselling sought after
+                                        sneakers and clothes. This script will
+                                        scrape StockX for the market price of a
+                                        particular item and update the price in
+                                        a spreadsheet.
+                                    </Card.Text>
+                                    <br></br>
+                                    <Card.Text>
+                                        <span className="technology">
+                                            Python
+                                        </span>
+                                    </Card.Text>
+                                </Card.Body>
+                                <Card.Footer>
+                                    <small className="text-muted">
+                                        <a
+                                            href="https://github.com/johnswong14/stockx-spreadsheet"
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                        >
+                                            <i className="fa fa-github fa-2x"></i>
+                                        </a>
+                                    </small>
+                                </Card.Footer>
+                            </Card>
+                            <Card>
+                                <Card.Img
+                                    variant="top"
+                                    src="images/Tank_Wars_2.png"
+                                />
+                                <Card.Body>
+                                    <Card.Title>Tank Wars Game</Card.Title>
+                                    <Card.Text>
+                                        Desktop app built for my software
+                                        development class. This a two player
+                                        game that allows you and a friend to go
+                                        head to head with tanks. The map is
+                                        designed for user tactics and stealthy
+                                        maneuvers. It is also destructible!
+                                    </Card.Text>
+                                    <Card.Text>
+                                        <span className="technology">Java</span>
+                                    </Card.Text>
+                                </Card.Body>
+                                <Card.Footer>
+                                    <small className="text-muted">
+                                        <a
+                                            href="https://github.com/johnswong14/tank-wars-game"
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                        >
+                                            <i className="fa fa-github fa-2x"></i>
+                                        </a>
+                                    </small>
+                                </Card.Footer>
+                            </Card>
+                        </CardDeck>
+                    </Col>
+                </Row>
+            </Container>
+        );
     }
 }

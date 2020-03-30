@@ -1,48 +1,65 @@
-import React, { Component } from 'react'
+import React, { Component } from "react";
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
 
 export default class Education extends Component {
     render() {
         return (
-            <div>
-                <section className="colorlib-education" data-section="education">
-                    <div className="colorlib-narrow-content">
-                        <div className="row">
-                            <div className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box fadeInLeft animated" data-animate-effect="fadeInLeft">
-                                <span className="heading-meta">Education</span>
-                                <h2 className="colorlib-heading animate-box fadeInUp animated">Education</h2>
-                            </div>
-                        </div>
-                        <div className="row">
-                            <div className="col-md-12 animate-box fadeInLeft animated" data-animate-effect="fadeInLeft">
-                                <div className="fancy-collapse-panel">
-                                    <div className="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-                                        <div className="panel panel-default">
-                                            <div className="panel-heading" role="tab" id="headingOne">
-                                                <h4 className="panel-title">
-                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Bachelor Degree of Computer Science</a>
-                                                </h4>
-                                            </div>
-                                            <div id="collapseOne" className="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
-                                                <div className="panel-body">
-                                                    <div className="row">
-                                                        <div className="col-md-6">
-                                                            <p>San Francisco State University<br></br>
-                                                            San Francisco State, CA<br></br>
-                                                            Aug 2017 - Jan 2020<br></br>
-                                                            GPA: 3.26</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        
-                                    </div>
+            <Container fluid className="component" id="education">
+                <Row>
+                    <Col className="component-header">
+                        <div className="component-header-title">Education</div>
+                        <div className="keyline"></div>
+                    </Col>
+                </Row>
+                <Row>
+                    <Col className="content">
+                        <div className="education-item">
+                            <div className="school">
+                                <span className="school-name">
+                                    San Francisco State University
+                                </span>
+                                <div className="duration">
+                                    Aug 2017 - Dec 2019
                                 </div>
                             </div>
+                            <div className="school">
+                                <span className="degree">
+                                    Bachelor of Science in Computer Science
+                                </span>
+                                <div className="location">
+                                    San Francisco, CA
+                                </div>
+                            </div>
+                            <div className="description">
+                                Relevant Coursework:
+                                <ul>
+                                    <li>
+                                        Introduction to Computer Programming
+                                    </li>
+                                    <li>Data Structures</li>
+                                    <li>Machine Structures</li>
+                                    <li>Programming Methodology</li>
+                                    <li>Software Development</li>
+                                    <li>Operating System Principles</li>
+                                    <li>Analysis of Algorithms</li>
+                                    <li>Programming Languages</li>
+                                    <li>Software Engineering</li>
+                                    <li>Computer Networks</li>
+                                    <li>System Administration</li>
+                                    <li>Internet App Design & Dev</li>
+                                    <li>Introduction to Database Systems</li>
+                                    <li>
+                                        Interactive Multimedia Application
+                                        Development
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
-                    </div>
-                </section>
-            </div>
-        )
+                    </Col>
+                </Row>
+            </Container>
+        );
     }
 }
