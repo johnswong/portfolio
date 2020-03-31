@@ -155,7 +155,7 @@ export default class Projects extends Component {
                             <Card>
                                 <Card.Img
                                     variant="top"
-                                    src="images/Tank_Wars_2.png"
+                                    src="images/tank_wars_2.png"
                                 />
                                 <Card.Body>
                                     <Card.Title>Tank Wars Game</Card.Title>
