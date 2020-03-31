@@ -8,4 +8,4 @@
     -   Run `npm install` to install node modules
     -   Run `npm start` to start the service on `localhost:3000`
 
-##### deployed app : https://johnswong14.github.io/portfolio
+##### deployed app : https://johnsonwong.dev

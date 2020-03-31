@@ -2,7 +2,7 @@
     "name": "portfolio",
     "version": "2.0.0",
     "private": true,
-    "homepage": "https://johnswong14.github.io/portfolio",
+    "homepage": "https://johnsonwong.dev",
     "dependencies": {
         "gh-pages": "^2.0.1",
         "react": "^16.8.3",

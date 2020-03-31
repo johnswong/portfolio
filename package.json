@@ -2,13 +2,13 @@
     "name": "portfolio",
     "version": "2.0.0",
     "private": true,
-    "homepage": "https://johnswong14.github.io/portfolio",
+    "homepage": "https://johnsonwong.dev",
     "dependencies": {
         "bootstrap": "^4.4.1",
-        "gh-pages": "^2.0.1",
-        "react": "^16.8.6",
+        "gh-pages": "^2.2.0",
+        "react": "^16.13.1",
         "react-bootstrap": "^1.0.0",
-        "react-dom": "^16.8.6",
+        "react-dom": "^16.13.1",
         "react-scripts": "3.0.1"
     },
     "scripts": {
