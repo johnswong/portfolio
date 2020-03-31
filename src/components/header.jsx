@@ -13,7 +13,7 @@ export default class Header extends Component {
                 variant="light"
                 sticky="top"
             >
-                <Navbar.Brand href="/">
+                <Navbar.Brand href="./">
                     <div
                         className="brand-img"
                         style={{
@@ -33,7 +33,7 @@ export default class Header extends Component {
                         <Nav.Link href="#skills">Skills</Nav.Link>
                         <Nav.Link
                             className="resume-btn"
-                            href="./resume.pdf"
+                            href="resume.pdf"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
