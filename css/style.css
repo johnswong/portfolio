@@ -1,0 +1,182 @@
+.container-fluid {
+    padding: 0;
+}
+
+.navbar {
+    border-bottom: 1px solid #d6d6d6;
+}
+
+a {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.brand-img {
+    width: 42px;
+    height: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+}
+
+.brand-img:hover {
+    opacity: 1;
+    transition: 0.5s ease;
+}
+
+a:hover {
+    color: #000 !important;
+    transition: 0.5s ease;
+}
+
+.resume-btn {
+    color: white;
+    background-color: #c0c0c0;
+    border-color: #c0c0c0;
+    border-radius: 0.25rem;
+}
+
+@media screen and (min-width: 577px) {
+    .resume-btn {
+        margin-left: 10px;
+    }
+}
+
+.resume-btn:hover {
+    color: white !important;
+    background-color: black;
+    border-color: black !important;
+}
+
+.component {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-top: -70px;
+    padding-top: 70px;
+}
+
+.component-header {
+    font-size: x-large;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.component-header,
+.content {
+    text-align: left;
+}
+
+.keyline {
+    border-bottom: 1px solid #d6d6d6;
+}
+
+.selfie-img {
+    width: 250px;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #d6d6d6;
+}
+
+.about-social,
+.name,
+.position {
+    font-weight: 700;
+    text-align: center;
+}
+
+.name {
+    font-size: xx-large;
+}
+
+.position {
+    font-size: large;
+    margin-bottom: 5px;
+}
+
+.school-name,
+.job-name,
+.project-name,
+.skill-name {
+    font-weight: 700;
+}
+
+.duration {
+    text-transform: uppercase;
+}
+
+.duration,
+.location {
+    font-weight: 500;
+    position: relative;
+    float: right;
+    color: #aaa;
+    font-style: italic;
+}
+
+@media screen and (max-width: 450px) {
+    .duration,
+    .location {
+        float: none;
+    }
+}
+
+.description {
+    margin-top: 5px;
+}
+
+ul {
+    padding-inline-start: 30px;
+}
+
+.technology {
+    border: 1px solid #d6d6d6;
+    margin-right: 10px;
+    text-transform: uppercase;
+    font-weight: 500;
+    width: auto;
+    display: inline-block;
+    font-size: 11px;
+    line-height: 1.33333em;
+    padding: 7px 18px;
+    margin-top: 0.8em;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    border-radius: 8px;
+}
+
+.footer {
+    margin: 0;
+    padding: 20px;
+    background-color: #f8f9fa;
+}
+
+.footer-copyright {
+    float: left;
+}
+
+.about-social,
+.footer-social {
+    word-spacing: 20px;
+}
+
+.footer-social {
+    float: right;
+}
+
+@media screen and (max-width: 767px) {
+    .footer-copyright,
+    .footer-social {
+        float: none;
+    }
+}
